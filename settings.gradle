@@ -8,4 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "DomainLib"
 include ':app'
-include ':myapplication'
+include ':domainlib'

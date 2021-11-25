@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DomainLib.iml" filepath="$PROJECT_DIR$/.idea/modules/DomainLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DomainLib.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DomainLib.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication/DomainLib.myapplication.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication/DomainLib.myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myapplication/DomainLib.domainlib.iml" filepath="$PROJECT_DIR$/.idea/modules/myapplication/DomainLib.domainlib.iml" />
     </modules>
   </component>
 </project>
