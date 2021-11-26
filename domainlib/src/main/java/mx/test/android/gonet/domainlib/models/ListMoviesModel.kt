@@ -6,8 +6,14 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class ListMoviesModel(
     var results: List<MovieRawModel>,
-) : Parcelable, BaseListModel() {
+    var page: Int,
+    var totalPages: Int,
+    var totalResults: Int
+) : Parcelable{
     constructor() : this(
-        results = listOf<MovieRawModel>()
+        results = listOf<MovieRawModel>(),
+        page = -1,
+        totalPages = -1,
+        totalResults = -1
     )
 }
