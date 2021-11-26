@@ -4,12 +4,16 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class ProductionCountry(
-    var iso31661: String,
+data class NetworkModel(
+    var id: Int,
+    var logoPath: String,
     var name: String,
+    var originCountry: String,
 ) : Parcelable {
     constructor() : this(
-        iso31661 = "",
-        name = ""
+        id = -1,
+        logoPath = "",
+        name = "",
+        originCountry = "",
     )
 }

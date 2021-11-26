@@ -4,7 +4,7 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class LastEpisodeToAir(
+data class LastEpisodeToAirModel(
     var airDate: String,
     var episodeNumber: Int,
     var id: Int,

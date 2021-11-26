@@ -4,12 +4,14 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Genre(
-    var id: Int,
+data class SpokenLanguageModel(
+    var englishName: String,
+    var iso6391: String,
     var name: String,
 ) : Parcelable {
     constructor() : this(
-        id = -1,
+        englishName = "",
+        iso6391 = "",
         name = ""
     )
 }

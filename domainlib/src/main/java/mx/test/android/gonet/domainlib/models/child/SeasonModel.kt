@@ -4,7 +4,7 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Season(
+data class SeasonModel(
     var airDate: String,
     var episodeCount: Int,
     var id: Int,
