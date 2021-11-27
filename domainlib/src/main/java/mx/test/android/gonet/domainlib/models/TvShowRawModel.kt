@@ -7,7 +7,7 @@ import kotlinx.android.parcel.Parcelize
 data class TvShowRawModel(
     var backdropPath: String,
     var firstAirDate: String,
-    var genreids: List<Int>,
+    var genreIds: List<Int>,
     var id: Int,
     var name: String,
     var originCountry: List<String>,
@@ -22,7 +22,7 @@ data class TvShowRawModel(
     constructor() : this(
         backdropPath = "",
         firstAirDate = "",
-        genreids = listOf<Int>(),
+        genreIds = listOf<Int>(),
         id = -1,
         name = "",
         originCountry = listOf<String>(),
