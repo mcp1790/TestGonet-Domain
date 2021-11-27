@@ -2,12 +2,13 @@ package mx.test.android.gonet.domainlib.models
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
+import mx.test.android.gonet.domainlib.models.child.GenreModel
 
 @Parcelize
 data class TvShowRawModel(
     var backdropPath: String,
     var firstAirDate: String,
-    var genreIds: List<Int>,
+    var genres: List<GenreModel>,
     var id: Int,
     var name: String,
     var originCountry: List<String>,
@@ -22,7 +23,7 @@ data class TvShowRawModel(
     constructor() : this(
         backdropPath = "",
         firstAirDate = "",
-        genreIds = listOf<Int>(),
+        genres = listOf<GenreModel>(),
         id = -1,
         name = "",
         originCountry = listOf<String>(),
