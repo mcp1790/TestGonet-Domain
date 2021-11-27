@@ -10,13 +10,13 @@ data class ListMoviesModel(
     var page: Int,
     var totalPages: Int,
     var totalResults: Int,
-    var dates: List<DatesModel>
+    var dates: DatesModel
 ) : Parcelable{
     constructor() : this(
         results = listOf<MovieRawModel>(),
         page = -1,
         totalPages = -1,
-        dates = listOf<DatesModel>(),
+        dates = DatesModel(),
         totalResults = -1
     )
 }
